@@ -1,0 +1,9 @@
+[Unit]
+Description=Saludo y fecha infinitos
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/saludo_script.sh
+
+[Install]
+WantedBy=multi-user.target
